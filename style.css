@@ -1,0 +1,59 @@
+    body {
+        background-image: url(fondo.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .container {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        padding: 35px;
+    }
+    
+    
+    body {
+        font-family: sans-serif;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    header {
+        display: flex;
+        height: 80px;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 90px;
+        margin-right: 20px;
+    }
+    
+    nav a {
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    
+    nav a:hover {
+        color: white;
+    }
+    
+    @media (max-width:700px) {
+        header {
+            flex-direction: column;
+        }
+    }
